@@ -2,9 +2,6 @@ const Agency = require("../../models/Agency");
 const Str = require("@supercharge/strings");
 
 const AgencyFunctions = {
-    test(){
-        console.log("test");
-    },
 
     async GetAgency(uuid){
 
