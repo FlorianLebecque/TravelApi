@@ -17,9 +17,6 @@ AgencyRouter.get("/",async (req,res)=>{
         res.status(error.code).json(error.err);
     }
 
-
-
-
 });
 
 AgencyRouter.delete("/",async (req,res)=>{
@@ -34,9 +31,6 @@ AgencyRouter.delete("/",async (req,res)=>{
     } catch (error) {
         res.status(error.code).json(error.err);
     }
-
-
-
 
 });
 
@@ -54,8 +48,6 @@ AgencyRouter.post("/",async (req,res)=>{
     } catch (error) {
         res.status(error.code).json(error.err);
     }
-
-
 
 });
 

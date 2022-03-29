@@ -11,12 +11,10 @@ const DestinationFunctions = {
             throw {code:500,err:"Internal server error"};
         })
 
-        
         if(data){
             return data;
         }
         throw {code:404,err:"Not found"};
-
 
     },
 
@@ -58,7 +56,6 @@ const DestinationFunctions = {
         throw {code:404,err:"Not found"};
 
     }
-
 
 }
 

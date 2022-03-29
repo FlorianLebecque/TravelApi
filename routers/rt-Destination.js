@@ -17,9 +17,6 @@ DestRouter.get("/",async (req,res)=>{
         res.status(error.code).json(error.err);
     }
 
-
-
-
 });
 
 DestRouter.delete("/",async (req,res)=>{
@@ -34,9 +31,6 @@ DestRouter.delete("/",async (req,res)=>{
     } catch (error) {
         res.status(error.code).json(error.err);
     }
-
-
-
 
 });
 
@@ -54,8 +48,6 @@ DestRouter.post("/",async (req,res)=>{
     } catch (error) {
         res.status(error.code).json(error.err);
     }
-
-
 
 });
 
