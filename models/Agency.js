@@ -18,8 +18,7 @@ const Agency = db.define("Agency",{
     },
     email:{
         type: Sequelize.STRING,
-        allowNull: false,
-        unique:true
+        allowNull: false
     },
     telephone:{
         type: Sequelize.STRING,
