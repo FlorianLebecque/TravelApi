@@ -9,7 +9,7 @@ class Controler{
         console.log(Object.getOwnPropertyNames(this).filter(item=> typeof this[item] ==="function"));
     }
 
-    Sanatize(str){
+    Sanatize(str,type="text"){
         return str;
     }
 
